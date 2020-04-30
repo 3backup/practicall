@@ -38,6 +38,10 @@ table {
   border-spacing: 0;
 }
 
+body {
+  font-size: 18px;
+}
+
 body h1, body h2, body h3, body h4, body h5, body h6 {
   font-family: Poppins;
 }
@@ -113,9 +117,69 @@ body .wrap section.first-section button {
           box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
 }
 
+body .wrap section.frow {
+  width: 1060px;
+  background-color: blue;
+  min-height: 10vh;
+  margin: 123px auto;
+  padding: 76px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+body .wrap section.frow div {
+  width: 42.85%;
+  background-color: red;
+}
+
+body .wrap section.frow div p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #040254;
+  opacity: 0.7;
+}
+
 body .wrap.shady-blue {
   background: #F4F5FF;
   margin-top: -242px;
   padding: 365px 0 123px 0;
+}
+
+body .wrap.shady-blue h2 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 48px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  color: #040254;
+}
+
+body .wrap.shady-blue p {
+  width: 71.4%;
+  margin-top: 29px;
+  text-align: center;
+}
+
+body .wrap.shady-blue p span {
+  display: inline-block;
+  margin-top: 18px;
+  font-weight: 600;
+  font-family: Poppins;
 }
 /*# sourceMappingURL=style.css.map */

@@ -30,10 +30,12 @@ table
     border-spacing: 0
 
 body
+    font-size: 18px
     h1, h2, h3, h4, h5, h6
         font-family: Poppins
     p
         font-family: Open Sans
+
     .wrap
         width: 100%
         // min-height: 50vh
@@ -80,7 +82,46 @@ body
                     text-transform: uppercase
                     color: #FFFFFF
                     box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19)
+            &.frow
+                width: 1060px
+                background-color: blue
+                min-height: 10vh
+                margin: $section-padding auto
+                padding: $base-margin 0
+                display: flex
+                flex-direction: row
+                justify-content: space-around
+                align-items: center
+                align-self: center
+                div
+                    width: 42.85%
+                    background-color: red
+                    p
+                        font-family: Open Sans
+                        font-style: normal
+                        font-weight: normal
+                        font-size: 18px
+                        line-height: 32px
+                        color: #040254
+                        opacity: 0.7
         &.shady-blue
             background: #F4F5FF
             margin-top: -$shade-blue-margin
             padding: $shade-blue-margin+$section-padding 0 $section-padding 0
+            h2
+                font-family: Poppins
+                font-style: normal
+                font-weight: 600
+                font-size: 48px
+                text-align: center
+                letter-spacing: -0.03em
+                color: #040254
+            p
+                width: 71.4%
+                margin-top: $paragraph-margin
+                text-align: center
+                span
+                    display: inline-block
+                    margin-top: $min-margin
+                    font-weight: 600
+                    font-family: Poppins
