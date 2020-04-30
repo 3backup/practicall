@@ -37,4 +37,42 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+
+body .wrap {
+  width: 100%;
+}
+
+body .wrap section.row {
+  width: 1060px;
+  min-height: 10vh;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrap section.first-section h1 img {
+  margin: 0 auto;
+  margin-top: 80px;
+}
+
+body .wrap section.first-section p {
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 32px;
+  color: #040254;
+  opacity: 0.7;
+}
 /*# sourceMappingURL=style.css.map */

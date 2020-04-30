@@ -1,3 +1,4 @@
+@import variables
 *
     box-sizing: border-box
 html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video
@@ -27,3 +28,30 @@ blockquote:before, blockquote:after, q:before, q:after
 table
     border-collapse: collapse
     border-spacing: 0
+
+body
+    .wrap
+        width: 100%
+        // min-height: 50vh
+        section
+            &.row
+                width: 1060px
+                min-height: 10vh
+                margin: 0 auto
+                display: flex
+                flex-direction: column
+                justify-content: center
+                align-items: center
+            &.first-section
+                h1
+                    img
+                        margin: 0 auto
+                        margin-top: $base-margin
+                p
+                    font-family: Open Sans
+                    font-style: normal
+                    font-weight: normal
+                    font-size: 18px
+                    line-height: 32px
+                    color: #040254
+                    opacity: 0.7
