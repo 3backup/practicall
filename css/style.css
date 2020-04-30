@@ -38,6 +38,14 @@ table {
   border-spacing: 0;
 }
 
+body h1, body h2, body h3, body h4, body h5, body h6 {
+  font-family: Poppins;
+}
+
+body p {
+  font-family: Open Sans;
+}
+
 body .wrap {
   width: 100%;
 }
@@ -61,18 +69,53 @@ body .wrap section.row {
           align-items: center;
 }
 
-body .wrap section.first-section h1 img {
-  margin: 0 auto;
-  margin-top: 80px;
-}
-
-body .wrap section.first-section p {
-  font-family: Open Sans;
+body .wrap section.row p {
   font-style: normal;
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
   color: #040254;
   opacity: 0.7;
+}
+
+body .wrap section.first-section img {
+  margin: 0 auto;
+  margin-top: 76px;
+}
+
+body .wrap section.first-section img.long-shadow {
+  -webkit-box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+          box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+}
+
+body .wrap section.first-section p {
+  width: 50%;
+  font-family: Open Sans;
+  text-align: center;
+  margin-top: 29px;
+}
+
+body .wrap section.first-section button {
+  width: 37.5%;
+  height: 65px;
+  margin-top: 47px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(50, 58, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), #040254;
+  border-radius: 8px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  -webkit-box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+          box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+}
+
+body .wrap.shady-blue {
+  background: #F4F5FF;
+  margin-top: -242px;
+  padding: 365px 0 123px 0;
 }
 /*# sourceMappingURL=style.css.map */
