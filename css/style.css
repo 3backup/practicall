@@ -330,29 +330,29 @@ body .wrap.navy-blue .row form input {
   font-weight: normal;
   font-size: 18px;
   line-height: 32px;
-  color: #A2A2C0;
+  color: #fff;
 }
 
 body .wrap.navy-blue .row form::-webkit-input-placeholder {
-  color: #A2A2C0;
+  color: #fff;
   font-size: 18px;
   line-height: 32px;
 }
 
 body .wrap.navy-blue .row form:-ms-input-placeholder {
-  color: #A2A2C0;
+  color: #fff;
   font-size: 18px;
   line-height: 32px;
 }
 
 body .wrap.navy-blue .row form::-ms-input-placeholder {
-  color: #A2A2C0;
+  color: #fff;
   font-size: 18px;
   line-height: 32px;
 }
 
 body .wrap.navy-blue .row form::placeholder {
-  color: #A2A2C0;
+  color: #fff;
   font-size: 18px;
   line-height: 32px;
 }
@@ -407,6 +407,7 @@ body footer .frow .logo-area {
 body footer .frow .logo-area img {
   width: 190px;
   margin-top: 5px;
+  margin-left: 29px;
 }
 
 body footer .frow .terms {
@@ -455,5 +456,20 @@ body footer .frow .socials img {
 
 body footer .frow .socials:nth-last-of-type() {
   margin-right: 0;
+}
+
+@media (max-width: 1080px) {
+  body .wrap section.row {
+    width: 992px;
+  }
+  body .wrap section.frow {
+    width: 992px;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer .frow {
+    width: 992px;
+  }
 }
 /*# sourceMappingURL=style.css.map */

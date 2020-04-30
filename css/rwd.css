@@ -1,0 +1,18 @@
+@media (max-width: 1080px) {
+  body .wrap {
+    width: 100%;
+  }
+  body .wrap section.row {
+    width: 992px;
+  }
+  body .wrap section.frow {
+    width: 992px;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer .frow {
+    width: 992px;
+  }
+}
+/*# sourceMappingURL=rwd.css.map */
