@@ -56,7 +56,6 @@ body .wrap {
 
 body .wrap section.row {
   width: 1060px;
-  min-height: 10vh;
   margin: 0 auto;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -119,9 +118,8 @@ body .wrap section.first-section button {
 
 body .wrap section.frow {
   width: 1060px;
-  background-color: blue;
+  margin: 0 auto;
   min-height: 10vh;
-  margin: 123px auto;
   padding: 76px 0;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -140,11 +138,21 @@ body .wrap section.frow {
 }
 
 body .wrap section.frow div {
-  width: 42.85%;
-  background-color: red;
+  width: 42.5%;
+}
+
+body .wrap section.frow div h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #040254;
 }
 
 body .wrap section.frow div p {
+  margin-top: 29px;
   font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
@@ -157,6 +165,7 @@ body .wrap section.frow div p {
 body .wrap.shady-blue {
   background: #F4F5FF;
   margin-top: -242px;
+  margin-bottom: 123px;
   padding: 365px 0 123px 0;
 }
 
@@ -181,5 +190,57 @@ body .wrap.shady-blue p span {
   margin-top: 18px;
   font-weight: 600;
   font-family: Poppins;
+}
+
+body .wrap.light-blue {
+  margin-top: 123px;
+  background: #F4F5FF;
+  padding: 123px 0;
+}
+
+body .wrap.light-blue h3 {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 44px;
+  letter-spacing: -0.03em;
+  color: #040254;
+}
+
+body .wrap.light-blue .icons {
+  width: 100%;
+  margin-top: 76px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body .wrap.light-blue .icons .circle {
+  width: 140px;
+  height: 140px;
+  border-radius: 140px;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(50, 58, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), #F9F9FF;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-item-align: center;
+      align-self: center;
+}
+
+body .wrap.light-blue .icons .circle h5 {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
 }
 /*# sourceMappingURL=style.css.map */
