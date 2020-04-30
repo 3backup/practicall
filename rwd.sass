@@ -1,3 +1,4 @@
+@import variables
 @media (max-width: 1080px)
     body
         .wrap
@@ -11,3 +12,135 @@
             width: 100%
             .frow
                 width: 992px
+
+@media (max-width: 991.98px)
+    body
+        .wrap
+            section
+                &.row
+                    width: 768px
+                &.frow
+                    flex-direction: column
+                    padding: $button-margin 0
+                    width: 768px
+                    div
+                        width: 85%
+                        text-align: center
+                    h3
+                        margin-top: $paragraph-margin
+
+                &.first-section
+                    img
+                        width: 80%
+                &.clmn-reverse
+                    flex-direction: column-reverse
+            &.shady-blue
+                background: #F4F5FF
+                margin-bottom: $base-margin
+            &.light-blue
+                margin-top: $base-margin
+                width: 100%
+        footer
+            width: 100%
+            .frow
+                width: 768px
+                flex-direction: column
+                .logo-area
+                    flex-grow: 2
+                    width: 21%
+                    img
+                        width: 190px
+                        margin-top: 0
+                        margin-left: 0
+                        margin: $paragraph-margin 0
+                p
+                    text-align: center
+                    margin: $min-margin auto
+                .socials
+
+                    img
+                        margin: $paragraph-margin
+
+@media (max-width: 575.98px)
+    body
+        .wrap
+            section
+                &.row
+                    width: 100%
+                &.frow
+                    flex-direction: column
+                    padding: $button-margin 0
+                    width: 100%
+                    div
+                        width: 85%
+                        text-align: center
+                        img
+                            width: 90%
+                    h3
+                        margin-top: $paragraph-margin
+
+                &.first-section
+                    p
+                        width: 75%
+                    button
+                        width: 90%
+                    img
+                        width: 80%
+                &.clmn-reverse
+                    flex-direction: column-reverse
+            &.shady-blue
+                background: #F4F5FF
+                margin-top: -92px
+                padding: 92px +$section-padding 0 $section-padding 0
+                margin-bottom: $base-margin
+                h2
+                    font-size: 38px
+                p
+                    width: 80%
+            &.light-blue
+                margin-top: $base-margin
+                width: 100%
+                .row
+                    h3
+                        width: 80%
+                        text-align: center
+                    .icons
+                        justify-content: space-around
+                        flex-direction: row
+                        flex-wrap: wrap
+                        .signle-box
+                            margin-top: $min-margin
+            &.navy-blue
+                .row
+                    h2
+                        font-size: 38px
+                    p
+                        width: 80%
+                    form
+                        flex-direction: column
+                        width: 80%
+                        input
+                            width: 100%
+                        button
+                            margin-top: $min-margin
+                            width: 100%
+        footer
+            width: 100%
+            .frow
+                width: 100%
+                flex-direction: column
+                .logo-area
+                    width: 100%
+                    img
+                        width: 190px
+                        display: block
+                        margin-left: 0
+                        margin-right: 0
+                        margin: $paragraph-margin auto
+                    p
+                        text-align: center
+                        margin: $min-margin auto
+                    .socials
+
+                        img
+                            margin: $paragraph-margin

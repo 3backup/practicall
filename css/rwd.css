@@ -15,4 +15,190 @@
     width: 992px;
   }
 }
+
+@media (max-width: 991.98px) {
+  body .wrap section.row {
+    width: 768px;
+  }
+  body .wrap section.frow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 47px 0;
+    width: 768px;
+  }
+  body .wrap section.frow div {
+    width: 85%;
+    text-align: center;
+  }
+  body .wrap section.frow h3 {
+    margin-top: 29px;
+  }
+  body .wrap section.first-section img {
+    width: 80%;
+  }
+  body .wrap section.clmn-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body .wrap.shady-blue {
+    background: #F4F5FF;
+    margin-bottom: 76px;
+  }
+  body .wrap.light-blue {
+    margin-top: 76px;
+    width: 100%;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer .frow {
+    width: 768px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body footer .frow .logo-area {
+    -webkit-box-flex: 2;
+        -ms-flex-positive: 2;
+            flex-grow: 2;
+    width: 21%;
+  }
+  body footer .frow .logo-area img {
+    width: 190px;
+    margin-top: 0;
+    margin-left: 0;
+    margin: 29px 0;
+  }
+  body footer .frow p {
+    text-align: center;
+    margin: 18px auto;
+  }
+  body footer .frow .socials img {
+    margin: 29px;
+  }
+}
+
+@media (max-width: 575.98px) {
+  body .wrap section.row {
+    width: 100%;
+  }
+  body .wrap section.frow {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    padding: 47px 0;
+    width: 100%;
+  }
+  body .wrap section.frow div {
+    width: 85%;
+    text-align: center;
+  }
+  body .wrap section.frow div img {
+    width: 90%;
+  }
+  body .wrap section.frow h3 {
+    margin-top: 29px;
+  }
+  body .wrap section.first-section p {
+    width: 75%;
+  }
+  body .wrap section.first-section button {
+    width: 90%;
+  }
+  body .wrap section.first-section img {
+    width: 80%;
+  }
+  body .wrap section.clmn-reverse {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+  body .wrap.shady-blue {
+    background: #F4F5FF;
+    margin-top: -92px;
+    padding: 215px 0 123px 0;
+    margin-bottom: 76px;
+  }
+  body .wrap.shady-blue h2 {
+    font-size: 38px;
+  }
+  body .wrap.shady-blue p {
+    width: 80%;
+  }
+  body .wrap.light-blue {
+    margin-top: 76px;
+    width: 100%;
+  }
+  body .wrap.light-blue .row h3 {
+    width: 80%;
+    text-align: center;
+  }
+  body .wrap.light-blue .row .icons {
+    -ms-flex-pack: distribute;
+        justify-content: space-around;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  body .wrap.light-blue .row .icons .signle-box {
+    margin-top: 18px;
+  }
+  body .wrap.navy-blue .row h2 {
+    font-size: 38px;
+  }
+  body .wrap.navy-blue .row p {
+    width: 80%;
+  }
+  body .wrap.navy-blue .row form {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width: 80%;
+  }
+  body .wrap.navy-blue .row form input {
+    width: 100%;
+  }
+  body .wrap.navy-blue .row form button {
+    margin-top: 18px;
+    width: 100%;
+  }
+  body footer {
+    width: 100%;
+  }
+  body footer .frow {
+    width: 100%;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+  body footer .frow .logo-area {
+    width: 100%;
+  }
+  body footer .frow .logo-area img {
+    width: 190px;
+    display: block;
+    margin-left: 0;
+    margin-right: 0;
+    margin: 29px auto;
+  }
+  body footer .frow .logo-area p {
+    text-align: center;
+    margin: 18px auto;
+  }
+  body footer .frow .logo-area .socials img {
+    margin: 29px;
+  }
+}
 /*# sourceMappingURL=rwd.css.map */
