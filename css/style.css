@@ -33,6 +33,10 @@ blockquote:before, blockquote:after, q:before, q:after {
   content: none;
 }
 
+textarea:focus, input:focus {
+  outline: none;
+}
+
 table {
   border-collapse: collapse;
   border-spacing: 0;
@@ -110,6 +114,7 @@ body .wrap section.first-section button {
   border-radius: 8px;
   font-family: Poppins;
   font-style: normal;
+  cursor: pointer;
   font-weight: 600;
   font-size: 16px;
   text-align: center;
@@ -119,6 +124,13 @@ body .wrap section.first-section button {
   color: #FFFFFF;
   -webkit-box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
           box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .wrap section.first-section button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 body .wrap section.frow {
@@ -303,7 +315,7 @@ body .wrap.navy-blue .row h2 {
 }
 
 body .wrap.navy-blue .row p {
-  font-family: Lato;
+  font-family: Open Sans;
   font-style: normal;
   font-weight: normal;
   margin-top: 29px;
@@ -346,6 +358,26 @@ body .wrap.navy-blue .row form input {
   color: #fff;
 }
 
+body .wrap.navy-blue .row form input:focus::-webkit-input-placeholder {
+  color: #fff;
+  border: none;
+}
+
+body .wrap.navy-blue .row form input:focus:-ms-input-placeholder {
+  color: #fff;
+  border: none;
+}
+
+body .wrap.navy-blue .row form input:focus::-ms-input-placeholder {
+  color: #fff;
+  border: none;
+}
+
+body .wrap.navy-blue .row form input:focus::placeholder {
+  color: #fff;
+  border: none;
+}
+
 body .wrap.navy-blue .row form::-webkit-input-placeholder {
   color: #fff;
   font-size: 18px;
@@ -386,6 +418,13 @@ body .wrap.navy-blue .row form button {
   letter-spacing: -0.03em;
   text-transform: uppercase;
   color: #FFFFFF;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+body .wrap.navy-blue .row form button:hover {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
 }
 
 body footer {
@@ -465,6 +504,7 @@ body footer .frow .socials {
 
 body footer .frow .socials img {
   margin-right: 29px;
+  cursor: pointer;
 }
 
 body footer .frow .socials:nth-last-of-type {
