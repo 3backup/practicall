@@ -1,6 +1,27 @@
 <!DOCTYPE html>
 <html lang="pl">
   <head>
+    <link rel="icon" href="img/favicon.ico" />
+
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="img/apple-touch-icon.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="img/favicon-32x32.png"
+    />
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="img/favicon-16x16.png"
+    />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
@@ -14,22 +35,23 @@
 
     <link rel="stylesheet" href="css/style.css" />
 
-    <!-- Begin Mailchimp Signup Form -->
-    <!-- <link
-      href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css"
-      rel="stylesheet"
-      type="text/css"
-    />
-    <style type="text/css">
-      #mc_embed_signup {
-        background: #fff;
-        clear: left;
-        font: 14px Helvetica, Arial, sans-serif;
-      }
-      /* Add your own Mailchimp form style overrides in your site stylesheet or in this style block.
-	   We recommend moving this block and the preceding CSS link to the HEAD of your HTML file. */
-    </style> -->
     <link rel="stylesheet" href="css/mailchimp-form.css" />
+    <!-- Hotjar Tracking Code for http://practicall.co/ -->
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 1792988, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script>
     <!-- Facebook Pixel Code -->
     <script>
       !(function (f, b, e, v, n, t, s) {
@@ -82,6 +104,24 @@
     </script>
   </head>
   <body>
+    <div class="wrap stickyMenu">
+      <nav class="row">
+        <img src="img/logo.svg" alt="" />
+        <a href="mailto:hello@practicall.co">hello@practicall.co</a>
+        <div class="socials">
+          <a href="https://www.facebook.com/Practicall/"
+            ><img src="img/facebook.svg" alt=""
+          /></a>
+          <a href="https://www.instagram.com/practicall.co/"
+            ><img src="img/instagram.svg" alt=""
+          /></a>
+          <a href="https://www.linkedin.com/company/practicall/"
+            ><img src="img/linkedin.svg" alt=""
+          /></a>
+        </div>
+        <button class="signup">Zapisz się na wczesny dostęp</button>
+      </nav>
+    </div>
     <div class="wrap">
       <div class="shape"></div>
       <div class="shape3"></div>
@@ -313,7 +353,8 @@
               ><a href="#">Polityka prywatności </a>|
               <a href="#">Pliki cookies</a></span
             >
-            | Designed & developed by Project:People
+            | Designed & developed by
+            <a href="http://projectpeople.pl/">Project: People</a>
           </p>
         </div>
         <div class="socials">

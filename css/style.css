@@ -61,6 +61,117 @@ body .wrap {
   height: 100%;
 }
 
+body .wrap.stickyMenu {
+  position: fixed;
+  opacity: 0;
+  z-index: 9999;
+  height: 90px;
+  left: -1px;
+  top: 0px;
+  background: rgba(255, 255, 255, 0.7);
+  -webkit-box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+          box-shadow: 0px 10px 35px rgba(0, 0, 0, 0.1);
+  -webkit-backdrop-filter: blur(400px);
+          backdrop-filter: blur(400px);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .wrap.stickyMenu.active {
+  opacity: 1;
+}
+
+body .wrap.stickyMenu .row {
+  width: 1060px;
+  height: 100%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .wrap.stickyMenu .row a {
+  display: block;
+  width: 35%;
+  line-height: 90px;
+  grow: 3;
+  text-decoration: none;
+  margin-top: 2px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  color: #040254;
+}
+
+body .wrap.stickyMenu .row img {
+  max-width: 160px;
+  grow: 1;
+}
+
+body .wrap.stickyMenu .row div.socials {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+}
+
+body .wrap.stickyMenu .row div.socials a {
+  margin-left: 18px;
+}
+
+body .wrap.stickyMenu .row button {
+  grow: 1;
+  padding: 0 18px;
+  height: 65px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  letter-spacing: -0.03em;
+  text-transform: uppercase;
+  background: radial-gradient(50% 50% at 50% 50%, rgba(50, 58, 255, 0.1) 0%, rgba(255, 255, 255, 0) 100%), #040254;
+  border-radius: 8.14201px;
+  color: #FFFFFF;
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+body .wrap.stickyMenu .row button:hover {
+  -webkit-transform: scale(1.03);
+          transform: scale(1.03);
+}
+
 body .wrap section.row {
   width: 1060px;
   margin: 0 auto;

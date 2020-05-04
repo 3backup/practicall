@@ -70,4 +70,6 @@ const scrollDown = () => {
 };
 // scroll it!
 
-document.querySelector(".signup").addEventListener("click", scrollDown);
+document
+  .querySelectorAll(".signup")
+  .forEach((form) => form.addEventListener("click", scrollDown));
