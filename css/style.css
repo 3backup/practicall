@@ -44,7 +44,6 @@ table {
 
 body {
   font-size: 18px;
-  overflow-x: hidden;
   height: 100%;
 }
 
@@ -59,6 +58,7 @@ body p {
 body .wrap {
   width: 100%;
   height: 100%;
+  overflow: hidden;
 }
 
 body .wrap.stickyMenu {
@@ -197,6 +197,10 @@ body .wrap section.row p {
   line-height: 32px;
   color: #040254;
   opacity: 0.7;
+}
+
+body .wrap section.first-section {
+  overflow: hidden;
 }
 
 body .wrap section.first-section img {
