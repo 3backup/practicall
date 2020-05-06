@@ -89,6 +89,10 @@ window.addEventListener("scroll", checkScroll);
 const checkWidth = () => {
   if (window.innerWidth < 575.98) {
     document.querySelector(".signup").innerHTML = "Przetestuj";
+  } else {
+    document.querySelector(".signup").innerHTML =
+      "Zapisz się na wczesny dostęp";
   }
 };
 checkWidth();
+window.addEventListener("resize", checkWidth);
