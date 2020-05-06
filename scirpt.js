@@ -73,3 +73,22 @@ const scrollDown = () => {
 document
   .querySelectorAll(".signup")
   .forEach((form) => form.addEventListener("click", scrollDown));
+
+const checkScroll = () => {
+  const scrollHeight = window.scrollY;
+  const windowHeight = window.innerHeight;
+  const stickyMenu = document.querySelector(".stickyMenu");
+  if (scrollHeight > 0.33 * windowHeight) {
+    stickyMenu.classList.add("active");
+  } else {
+    stickyMenu.classList.remove("active");
+  }
+};
+window.addEventListener("scroll", checkScroll);
+
+const checkWidth = () => {
+  if (window.innerWidth < 575.98) {
+    document.querySelector(".signup").innerHTML = "Przetestuj";
+  }
+};
+checkWidth();

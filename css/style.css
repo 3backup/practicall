@@ -212,6 +212,7 @@ body .wrap section.first-section img {
 body .wrap section.first-section img.long-shadow {
   -webkit-box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
           box-shadow: 0px 30px 60px rgba(50, 58, 255, 0.19);
+  margin-bottom: 76px;
 }
 
 body .wrap section.first-section p {
@@ -301,9 +302,9 @@ body .wrap.shady-blue {
   background: #F4F5FF;
   position: relative;
   z-index: -9;
-  margin-top: -242px;
+  margin-top: -317px;
   margin-bottom: 123px;
-  padding: 365px 0 123px 0;
+  padding: 317px 0 123px 0;
 }
 
 body .wrap.shady-blue h2 {
@@ -438,6 +439,11 @@ body .wrap.navy-blue .row p {
   line-height: 32px;
   text-align: center;
   color: #A2A2C0;
+}
+
+body .wrap.navy-blue .row p a {
+  text-decoration: none;
+  color: #fff;
 }
 
 body .wrap.navy-blue .row form {
@@ -630,6 +636,9 @@ body footer .frow .socials:nth-last-of-type {
   body .wrap {
     width: 100%;
   }
+  body .wrap.stickyMenu .row {
+    width: 992px;
+  }
   body .wrap section.row {
     width: 992px;
   }
@@ -645,6 +654,21 @@ body footer .frow .socials:nth-last-of-type {
 }
 
 @media (max-width: 991.98px) {
+  body .wrap.stickyMenu .row {
+    width: 768px;
+  }
+  body .wrap.stickyMenu .row button {
+    grow: 3;
+  }
+  body .wrap.stickyMenu .row img {
+    margin-left: 25px;
+  }
+  body .wrap.stickyMenu .row a {
+    display: none;
+  }
+  body .wrap.stickyMenu .row a img {
+    display: none;
+  }
   body .wrap section.row {
     width: 768px;
   }
@@ -713,6 +737,31 @@ body footer .frow .socials:nth-last-of-type {
 }
 
 @media (max-width: 575.98px) {
+  body .wrap.stickyMenu .row {
+    width: 100%;
+  }
+  body .wrap.stickyMenu .row button {
+    width: 50%;
+    text-align: center;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  body .wrap.stickyMenu .row img {
+    width: 30%;
+  }
+  body .wrap.stickyMenu .row a {
+    display: none;
+  }
+  body .wrap.stickyMenu .row a img {
+    display: none;
+  }
+  body .wrap .shape3 {
+    top: 35%;
+  }
   body .wrap section.row {
     width: 100%;
   }
@@ -742,6 +791,9 @@ body footer .frow .socials:nth-last-of-type {
   }
   body .wrap section.first-section img {
     width: 80%;
+  }
+  body .wrap section.first-section img.long-shadow {
+    margin-bottom: 47px;
   }
   body .wrap section.clmn-reverse {
     -webkit-box-orient: vertical;

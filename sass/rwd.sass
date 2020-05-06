@@ -3,6 +3,9 @@
     body
         .wrap
             width: 100%
+            &.stickyMenu
+                .row
+                    width: 992px
             section
                 &.row
                     width: 992px
@@ -16,6 +19,17 @@
 @media (max-width: 991.98px)
     body
         .wrap
+            &.stickyMenu
+                .row
+                    width: 768px
+                    button
+                        grow: 3
+                    img
+                        margin-left: 25px
+                    a
+                        display: none
+                        img
+                            display: none
             section
                 &.row
                     width: 768px
@@ -64,7 +78,24 @@
 
 @media (max-width: 575.98px)
     body
+
         .wrap
+            &.stickyMenu
+                .row
+                    width: 100%
+                    button
+                        width: 50%
+                        text-align: center
+                        display: flex
+                        justify-content: center
+                    img
+                        width: 30%
+                    a
+                        display: none
+                        img
+                            display: none
+            .shape3
+                top: 35%
             section
                 &.row
                     width: 100%
@@ -87,8 +118,11 @@
                         width: 90%
                     img
                         width: 80%
+                        &.long-shadow
+                            margin-bottom: $button-margin
                 &.clmn-reverse
                     flex-direction: column-reverse
+
             &.shady-blue
                 background: #F4F5FF
                 margin-top: -92px
